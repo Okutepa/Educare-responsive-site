@@ -1,0 +1,188 @@
+.hidden {
+    display: none;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+
+.box {
+    background-color: #549494;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.logo {
+    height: 20px;
+}
+
+#hero {
+    background-color: #707070;
+    height: 174px;
+    margin-top: 20px;
+}
+
+#text {
+    height: 30px;
+    width: 160px;
+    background-color: white;
+    margin-top: 65px;
+}
+
+.image {
+    height: 129px;
+    width: 165px;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.dash-line {
+    width: 100px;
+    height: 150px;
+    margin: 20px 0;
+  }
+
+#review-1 {
+    background-color: #707070;
+    height: 174px;
+    margin-top: 20px;
+}
+
+#review-2 {
+    background-color: #707070;
+    height: 174px;
+    margin-top: 20px;
+}
+
+#review-3 {
+    background-color: #707070;
+    height: 174px;
+    margin-top: 20px;
+}
+
+#review-4 {
+    background-color: #707070;
+    height: 174px;
+    margin-top: 20px;
+}
+
+#review-5 {
+    background-color: #707070;
+    height: 174px;
+    margin-top: 20px;
+}
+
+#review-6 {
+    background-color: #707070;
+    height: 174px;
+    margin-top: 20px;
+}
+
+#footer {
+    background-color: #549494;
+    height: 401px;
+    margin-top: 20px;
+}
+
+.footer-text {
+    margin-top: 10px;
+    height: 30px;
+    width: 200px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.newsletter {
+    height: 60xpx;
+    width: 450px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+@media screen and (min-width: 768px) {
+    .image {
+        height: 300px;
+        width: 400px;
+        background-color: white;
+        border-radius: 15px;
+        margin-top: 20px;
+    }
+    
+    #hero {
+        background-color: #707070;
+        height: 382px;
+        margin-top: 20px;
+    }
+
+    #text {
+        height: 120px;
+        width: 300px;
+        background-color: white;
+        margin-top: 65px;
+    }
+
+    #footer {
+        background-color: #549494;
+        height: 401px;
+        margin-top: 20px;
+    }
+    
+    .footer-text {
+        margin-top: 10px;
+        height: 30px;
+        width: 300px;
+        background-color: white;
+        border-radius: 15px;
+    }
+    
+    .newsletter {
+        height: 60xpx;
+        width: 450px;
+        background-color: white;
+        border-radius: 15px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .image {
+        height: 300px;
+        width: 550px;
+        background-color: white;
+        border-radius: 15px;
+        margin-top: 20px;
+    }
+
+    #text {
+        height: 120px;
+        width: 300px;
+        background-color: white;
+        margin-top: 65px;
+    }
+
+    #footer {
+        background-color: #549494;
+        height: 401px;
+        margin-top: 20px;
+    }
+    
+    .footer-text {
+        margin-top: 10px;
+        height: 30px;
+        width: 400px;
+        background-color: white;
+        border-radius: 15px;
+    }
+    
+    .newsletter {
+        height: 60xpx;
+        width: 800px;
+        background-color: white;
+        border-radius: 15px;
+    }
+}
