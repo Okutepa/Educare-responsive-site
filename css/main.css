@@ -42,46 +42,61 @@ body {
     margin-top: 20px;
 }
 
-.dash-line {
-    width: 100px;
-    height: 150px;
-    margin: 20px 0;
-  }
-
 #review-1 {
     background-color: #707070;
-    height: 174px;
+    height: 250px;
     margin-top: 20px;
+    border-radius: 15px;
 }
 
 #review-2 {
     background-color: #707070;
-    height: 174px;
+    height: 250px;
     margin-top: 20px;
+    border-radius: 15px;
 }
 
 #review-3 {
     background-color: #707070;
-    height: 174px;
+    height: 250px;
     margin-top: 20px;
+    border-radius: 15px;
 }
 
 #review-4 {
     background-color: #707070;
-    height: 174px;
+    height: 250px;
     margin-top: 20px;
+    border-radius: 15px;
 }
 
 #review-5 {
     background-color: #707070;
-    height: 174px;
+    height: 250px;
     margin-top: 20px;
+    border-radius: 15px;
 }
 
 #review-6 {
     background-color: #707070;
-    height: 174px;
+    height: 250px;
     margin-top: 20px;
+    border-radius: 15px;
+}
+
+.review-text {
+    margin-top: 20px;
+    width: 420px;
+    height: 100px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.reviewer {
+    height: 70px;
+    width: 420px;
+    background-color: white;
+    border-radius: 15px;
 }
 
 #footer {
@@ -100,9 +115,11 @@ body {
 
 .newsletter {
     height: 60xpx;
-    width: 450px;
+    width: 400px;
     background-color: white;
     border-radius: 15px;
+    margin-bottom: 20px;
+    margin-left: 10px;
 }
 
 @media screen and (min-width: 768px) {
@@ -125,6 +142,62 @@ body {
         width: 300px;
         background-color: white;
         margin-top: 65px;
+    }
+
+    #review-1 {
+        display: flex;
+        background-color: #707070;
+        height: 250px;
+        margin-top: 20px;
+        border-radius: 15px;
+    }
+    
+    #review-2 {
+        display: flex;
+        background-color: #707070;
+        height: 250px;
+        margin-top: 20px;
+        border-radius: 15px;
+    }
+    
+    #review-3 {
+        display: flex;
+        background-color: #707070;
+        height: 250px;
+        margin-top: 20px;
+        border-radius: 15px;
+    }
+    
+    #review-4 {
+        display: flex;
+        background-color: #707070;
+        height: 250px;
+        margin-top: 20px;
+        border-radius: 15px;
+    }
+    
+    #review-5 {
+        display: flex;
+        background-color: #707070;
+        height: 250px;
+        margin-top: 20px;
+        border-radius: 15px;
+    }
+    
+    #review-6 {
+        display: flex;
+        background-color: #707070;
+        height: 250px;
+        margin-top: 20px;
+        border-radius: 15px;
+    }
+
+    .reviewer {
+        height: 70px;
+        width: 420px;
+        background-color: white;
+        border-radius: 15px;
+        margin-top: 22px;
     }
 
     #footer {
@@ -163,6 +236,54 @@ body {
         width: 300px;
         background-color: white;
         margin-top: 65px;
+    }
+    
+    #review-1 {
+        display: flex;
+        background-color: #707070;
+        height: 250px;
+        margin-top: 20px;
+        border-radius: 15px;
+    }
+    
+    #review-2 {
+        display: flex;
+        background-color: #707070;
+        height: 250px;
+        margin-top: 20px;
+        border-radius: 15px;
+    }
+    
+    #review-3 {
+        display: flex;
+        background-color: #707070;
+        height: 250px;
+        margin-top: 20px;
+        border-radius: 15px;
+    }
+    
+    #review-4 {
+        display: flex;
+        background-color: #707070;
+        height: 250px;
+        margin-top: 20px;
+        border-radius: 15px;
+    }
+    
+    #review-5 {
+        display: flex;
+        background-color: #707070;
+        height: 250px;
+        margin-top: 20px;
+        border-radius: 15px;
+    }
+    
+    #review-6 {
+        display: flex;
+        background-color: #707070;
+        height: 250px;
+        margin-top: 20px;
+        border-radius: 15px;
     }
 
     #footer {
